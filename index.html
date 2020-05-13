@@ -1,359 +1,500 @@
-<!doctype html>
+<!DOCTYPE html>
 <html lang="en">
-  <head>
-    <title>Ravinarreglos y Regalos</title>
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 
-    <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,400,700,800" rel="stylesheet">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <meta name="description" content="Jorge Reategui, Software Developer, Game Developer, Portfolio and Personal Website." />
+    <meta name="keywords" content="Team Leader, Software Developer, Game Developer, Creative, CV, Resume, Portfolio" />
+    <meta name="author" content="Jorge Reategui">
+    <link rel="shortcut icon" href="./img/icons/favicon.png">
+    <title>Portfolio Website</title>
 
-    <link rel="stylesheet" href="css/bootstrap.css">
-    <link rel="stylesheet" href="css/animate.css">
-    <link rel="stylesheet" href="css/owl.carousel.min.css">
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="./css/bootstrap.min.css">
 
-    <link rel="stylesheet" href="css/magnific-popup.css">
+    <!-- Daneden Animation CSS: https://daneden.github.io/animate.css/ -->
+    <link rel="stylesheet" href="./css/animate.css">
 
+    <!-- Google Fonts -->
+    <link href="https://fonts.googleapis.com/css?family=Roboto&display=swap" rel="stylesheet">
 
-    <link rel="stylesheet" href="fonts/ionicons/css/ionicons.min.css">
-    <link rel="stylesheet" href="fonts/fontawesome/css/font-awesome.min.css">
-    <link rel="stylesheet" href="fonts/flaticons/font/flaticon.css">
+    <!-- Font Awesome icons -->
+    <link rel="stylesheet" href="./css/all.min.css">
 
-    <!-- Theme Style -->
-    <link rel="stylesheet" href="css/style.css">
-  </head>
-  <body>
-    
-    <header role="banner">
-      <nav class="navbar navbar-expand-md navbar-dark bg-dark">
+    <!-- Custom Styles and custom responsive -->
+    <link rel="stylesheet" href="./css/custom-styles.css">
+    <link rel="stylesheet" href="./css/custom-responsive.css">
+
+</head>
+
+<body data-spy="scroll" data-target="#section_header">
+    <!-- =================== HEADER SECTION ================= -->
+    <header id="section_header">
         <div class="container">
-          <a class="navbar-brand" href="index.html">RAVINARREGLOS Y REGALOS</a>
-          <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarsExample05" aria-controls="navbarsExample05" aria-expanded="false" aria-label="Toggle navigation">
-            <span class="navbar-toggler-icon"></span>
-          </button>
-
-          <div class="collapse navbar-collapse" id="navbarsExample05">
-            <ul class="navbar-nav ml-auto pl-lg-5 pl-0">
-              <li class="nav-item">
-                <a class="nav-link active" href="index.html">Inicio</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="recipes.html">Catálogo</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="about.html">¿Quiénes Somos?</a>
-              </li>
-            </ul>
-
-            <ul class="navbar-nav ml-auto">
-              <li class="nav-item cta-btn">
-                <a class="nav-link" href="contact.html">Contáctanos</a>
-              </li>
-            </ul>
-            
-          </div>
+            <div class="row">
+                <nav class="navbar navbar-expand-md navbar-light fixed-top">
+                    <a class="navbar-brand" href="#section_home">J.L. Re&aacute;tegui</a>
+                    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                        <span class="navbar-toggler-icon"></span>
+                    </button>
+                    <div class="collapse navbar-collapse" id="navbarNav">
+                        <!-- mr-auto: to force sibling columns away from one another-->
+                        <div class="mr-auto"></div>
+                        <ul class="navbar-nav">
+                            <li class="nav-item">
+                                <a class="nav-link" href="#section_home">Home</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="#section_about">About</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="#section_skills">Skills</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="#section_portfolio">Portfolio</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="#section_resume">Resume</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="#section_contact">Contact</a>
+                            </li>
+                        </ul>
+                    </div>
+                </nav>
+            </div>
         </div>
-      </nav>
     </header>
-    <!-- END header -->
-    
-    <section class="home-slider owl-carousel">
-      <div class="slider-item" style="background-image: url('img/hero_2.jpg');">        
+    <!--=================== END HEADER SECTION ================= -->
+    <!-- =================== MAIN SECTION ================= -->
+    <main>
+        <!-- =================== HOME SECTION ================= -->
+        <section id="section_home">
+            <div class="img-overlay">
+                <div class="container">
+                    <div class="row flex-sm-row-reverse">
+                        <div class="col-sm-6 text-center my-auto wow fadeInUp" data-wow-duration="0.8s" data-wow-delay="0.6s">
+                            <img class="lazyload img-fluid rounded-circle" src="./img/icons/spinner.gif" data-src="./img/jorge_resume.webp" alt="Jorge Portfolio picture">
+                        </div>
+                        <div class="col-sm-6 text-center text-sm-left pt-5 pt-sm-0">
+                            <span class="speech-bubble wow fadeInUp" data-wow-duration="0.8s" data-wow-delay="0.2s">Hi, I'm</span>
+                            <h1 class="mt-4 mb-2 font-weight-bold wow fadeInUp" data-wow-duration="0.8s" data-wow-delay="0.2s">Jorge Re&aacute;tegui</h1>
+                            <h4 class="wow fadeInUp" data-wow-duration="0.8s" data-wow-delay="0.3s">Software and Game Developer</h4>
+                            <ul class="contact-info mb-4 mt-5">
+                                <li class="wow fadeInUp" data-wow-duration="0.8s" data-wow-delay="0.4s"><a href="mailto:zurobackster@gmail.com"><i class="fas fa-envelope mr-3"></i>zurobackster@gmail.com</a></li>
+                                <li class="wow fadeInUp" data-wow-duration="0.8s" data-wow-delay="0.5s"><i class="fas fa-phone mr-3"></i>+1 (607) 237 9254</li>
+                                <li class="wow fadeInUp" data-wow-duration="0.8s" data-wow-delay="0.6s"><i class="fas fa-map-marker-alt mr-3"></i>New York</li>
+                            </ul>
+                            <ul class="social-info d-inline-flex wow fadeInUp" data-wow-duration="0.8s" data-wow-delay="0.7s">
+                                <a target="_blank" href="https://www.linkedin.com/in/zurobackster">
+                                    <li><i class="fab fa-linkedin-in"></i></li>
+                                </a>
+                                <a target="_blank" href="https://github.com/zurobackster">
+                                    <li><i class="fab fa-github"></i></li>
+                                </a>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- =================== END HOME SECTION ================= -->
+        <!-- =================== ABOUT SECTION ================= -->
+        <section id="section_about" class="py-md-5 py-3">
+            <div class="container py-5">
+                <div class="row">
+                    <div class="col-sm-12 col-md-7 col-lg-6 my-auto mt-md-4 wow fadeInUp" data-wow-duration="0.8s" data-wow-delay="0.4s">
+                        <img class="lazyload img-fluid img-thumbnail" src="./img/icons/spinner.gif" data-src="./img/teamtalks.webp" alt="Jorge Microsoft Team Talks Lima Peru">
+                    </div>
+                    <div class="col-sm-12 col-md-5 col-lg-6">
+                        <h2 class="my-4 font-weight-bold wow fadeInUp" data-wow-duration="0.8s" data-wow-delay="0.1s">About <span class="secondary-color-dark">Me</span></h2>
+                        <p class="wow fadeInUp" data-wow-duration="0.8s" data-wow-delay="0.2s">Hello, my name is Jorge, I am a Peruvian living in the United States, and recently married the love of my life. I have 10+ years of experience in the IT field, having operated in the roles of development and management.</p>
+                        <p class="wow fadeInUp" data-wow-duration="0.8s" data-wow-delay="0.5s">Some of my recent work includes:</p>
+                        <ul class="d-flex flex-wrap my-4 wow fadeInUp" data-wow-duration="0.8s" data-wow-delay="0.3s">
+                            <li><span class="rounded">HTML5</span></li>
+                            <li><span class="rounded">CSS3</span></li>
+                            <li><span class="rounded">Bootstrap4</span></li>
+                            <li><span class="rounded">JQuery</span></li>
+                            <li><span class="rounded">JavaScript</span></li>
+                            <li><span class="rounded">Node JS</span></li>
+                            <li><span class="rounded">Express JS</span></li>
+                            <li><span class="rounded">MongoDB</span></li>
+                        </ul>
+                        <a href="./assets/Resume_Jorge_Reategui.pdf" download class="btn btn-primary wow fadeInUp" data-wow-duration="0.8s" data-wow-delay="0.4s" >Download CV<i class="fas fa-file-download pl-3"></i></a>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- =================== END ABOUT SECTION ================= -->
+        <!-- =================== SKILLS SECTION ================= -->
+        <section id="section_skills" class="py-md-5 py-3">
+            <div class="container py-5">
+                <div class="row">
+                    <div class="col-md-3 mb-5 wow fadeInUp" data-wow-duration="0.8s" data-wow-delay="0.3s">
+                        <h2 class="font-weight-bold">My top <span class="secondary-color-dark">Skills</span></h2>
+                    </div>
+                    <div class="col-md-9 wow fadeInUp" data-wow-duration="0.8s" data-wow-delay="0.5s">
+                        <div class="skill">
+                            <h5>HTML5 / CSS3</h5>
+                            <div class="progress">
+                                <div class="progress-bar" role="progressbar" style="width: 90%" aria-valuenow="90" aria-valuemin="0" aria-valuemax="100"><span>90%</span></div>
+                            </div>
+                        </div>
+                        <div class="skill">
+                            <h5>JavaScript ES6 to ES10</h5>
+                            <div class="progress">
+                                <div class="progress-bar" role="progressbar" style="width: 85%" aria-valuenow="85" aria-valuemin="0" aria-valuemax="100"><span>85%</span></div>
+                            </div>
+                        </div>
+                        <div class="skill">
+                            <h5>Bootstrap4 / JQuery</h5>
+                            <div class="progress">
+                                <div class="progress-bar" role="progressbar" style="width: 90%" aria-valuenow="90" aria-valuemin="0" aria-valuemax="100"><span>90%</span></div>
+                            </div>
+                        </div>
+                        <div class="skill">
+                            <h5>Java</h5>
+                            <div class="progress">
+                                <div class="progress-bar" role="progressbar" style="width: 95%" aria-valuenow="95" aria-valuemin="0" aria-valuemax="100"><span>95%</span></div>
+                            </div>
+                        </div>
+                        <div class="skill">
+                            <h5>Node JS / Express JS</h5>
+                            <div class="progress">
+                                <div class="progress-bar" role="progressbar" style="width: 90%" aria-valuenow="90" aria-valuemin="0" aria-valuemax="100"><span>90%</span></div>
+                            </div>
+                        </div>
+                        <div class="skill">
+                            <h5>Scrum / Design Thinking</h5>
+                            <div class="progress">
+                                <div class="progress-bar" role="progressbar" style="width: 98%" aria-valuenow="98" aria-valuemin="0" aria-valuemax="100"><span>98%</span></div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- =================== END SKILLS SECTION ================= -->
+        <!-- =================== PORTFOLIO SECTION ================= -->
+        <section id="section_portfolio" class="py-md-5 py-3">
+            <div class="container py-5">
+                <div class="row justify-content-center wow fadeInUp" data-wow-duration="0.8s" data-wow-delay="0.1s">
+                    <h2 class="font-weight-bold pb-5">Recent <span class="secondary-color-dark">Work</span></h2>
+                </div>
+                <div class="row portfolio-nav text-center">
+                    <div class="col-sm-12">
+                        <ul class="d-inline-flex flex-wrap justify-content-center">
+                            <li data-filter="*" class="active wow fadeInUp" data-wow-duration="0.8s" data-wow-delay="0.1s">All Categories</li>
+                            <li data-filter=".webapp" class="wow fadeInUp" data-wow-duration="0.8s" data-wow-delay="0.2s">Web Application</li>
+                            <li data-filter=".androidgame" class="wow fadeInUp" data-wow-duration="0.8s" data-wow-delay="0.3s">Android Game</li>
+                            <li data-filter=".landing" class="wow fadeInUp" data-wow-duration="0.8s" data-wow-delay="0.4s">Landing Page</li>
+                            <li data-filter=".html5game" class="wow fadeInUp" data-wow-duration="0.8s" data-wow-delay="0.5s">HTML5 Game</li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="row portfolio_grid">
+                    <div class="grid-item col-lg-4 col-md-6 col-sm-12 webapp" data-project-index="0">
+                        <figure>
+                            <img src="./img/portfolio/meal-plan-display.webp" alt="Weekly Meal Plan" class="img-fluid">
+                            <figcaption class="fig-caption">
+                                <i class="fas fa-search-plus fa-2x"></i>
+                                <h5 class="title">Weekly Meal Plan</h5>
+                                <span class="sub-title">Web Application</span>
+                            </figcaption>
+                        </figure>
+                    </div>
+                    <div class="grid-item col-lg-4 col-md-6 col-sm-12 androidgame" data-project-index="1">
+                        <figure>
+                            <img src="./img/portfolio/papaman-display.webp" alt="Papaman Quest" class="img-fluid">
+                            <figcaption class="fig-caption">
+                                <i class="fas fa-search-plus fa-2x"></i>
+                                <h5 class="title">Papaman Quest</h5>
+                                <span class="sub-title">Android Game</span>
+                            </figcaption>
+                        </figure>
+                    </div>
+                    <div class="grid-item col-lg-4 col-md-6 col-sm-12 landing" data-project-index="2">
+                        <figure>
+                            <img src="./img/portfolio/landing-page-display.webp" alt="Landing Page" class="img-fluid">
+                            <figcaption class="fig-caption">
+                                <i class="fas fa-search-plus fa-2x"></i>
+                                <h5 class="title">Landing Page</h5>
+                                <span class="sub-title">Landing Page</span>
+                            </figcaption>
+                        </figure>
+                    </div>
+                    <div class="grid-item col-lg-4 col-md-6 col-sm-12 androidgame" data-project-index="3">
+                        <figure>
+                            <img src="./img/portfolio/diet-assistant-display.webp" alt="Diet Assistant" class="img-fluid">
+                            <figcaption class="fig-caption">
+                                <i class="fas fa-search-plus fa-2x"></i>
+                                <h5 class="title">Diet Assistant</h5>
+                                <span class="sub-title">Android Game</span>
+                            </figcaption>
+                        </figure>
+                    </div>
+                    <div class="grid-item col-lg-4 col-md-6 col-sm-12 webapp" data-project-index="4">
+                        <figure>
+                            <img src="./img/portfolio/password-manager-display.webp" alt="Password Manager" class="img-fluid">
+                            <figcaption class="fig-caption">
+                                <i class="fas fa-search-plus fa-2x"></i>
+                                <h5 class="title">Password Manager</h5>
+                                <span class="sub-title">Web Application</span>
+                            </figcaption>
+                        </figure>
+                    </div>
+                    <div class="grid-item col-lg-4 col-md-6 col-sm-12 androidgame" data-project-index="5">
+                        <figure>
+                            <img src="./img/portfolio/poke-fan-game-mobile-display.webp" alt="Pokemon Card Game Mobile" class="img-fluid">
+                            <figcaption class="fig-caption">
+                                <i class="fas fa-search-plus fa-2x"></i>
+                                <h5 class="title">Pokemon Card Game Mobile</h5>
+                                <span class="sub-title">Android Game</span>
+                            </figcaption>
+                        </figure>
+                    </div>
+                    <div class="grid-item col-lg-4 col-md-6 col-sm-12 html5game" data-project-index="6">
+                        <figure>
+                            <img src="./img/portfolio/poke-fan-game-web-display.webp" alt="Pokemon Card Web" class="img-fluid">
+                            <figcaption class="fig-caption">
+                                <i class="fas fa-search-plus fa-2x"></i>
+                                <h5 class="title">Pokemon Card Web</h5>
+                                <span class="sub-title">HTML5 Game</span>
+                            </figcaption>
+                        </figure>
+                    </div>
+                    <div class="grid-item col-lg-4 col-md-6 col-sm-12 androidgame" data-project-index="7">
+                        <figure>
+                            <img src="./img/portfolio/warrior-soul-display.webp" alt="Warrior's Soul" class="img-fluid">
+                            <figcaption class="fig-caption">
+                                <i class="fas fa-search-plus fa-2x"></i>
+                                <h5 class="title">Warrior's Soul</h5>
+                                <span class="sub-title">Android Game</span>
+                            </figcaption>
+                        </figure>
+                    </div>
+                </div>
+            </div>
+            <!-- ============ PORTFOLIO MODAL ================= -->
+            <div id="portfolio_modal" class="modal fade" tabindex="-1" role="dialog" aria-labelledby="PortfolioModal" aria-hidden="true">
+                <div class="modal-dialog modal-dialog-centered modal-xl" role="document">
+                    <div class="modal-content">
+                        <div class="modal-header">
+                            <h2 class="modal-title pl-3 font-weight-bold">Default title</h2>
+                            <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                                <span aria-hidden="true">&times;</span>
+                            </button>
+                        </div>
+                        <div class="modal-body">
+                            <div class="container">
+                                <div class="row">
+                                    <div class="col-md-5">
+                                        <div class="modal-description">
+                                            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Minima, molestias.</p>
+                                            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Minima, molestias.</p>
+                                        </div>
+                                        <ul class="modal-techs d-flex flex-wrap my-4">
+                                            <li><span class="rounded">HTML5</span></li>
+                                            <li><span class="rounded">CSS3</span></li>
+                                            <li><span class="rounded">Bootstrap4</span></li>
+                                            <li><span class="rounded">JQuery</span></li>
+                                            <li><span class="rounded">JavaScript</span></li>
+                                            <li><span class="rounded">Node JS</span></li>
+                                            <li><span class="rounded">Express JS</span></li>
+                                            <li><span class="rounded">MongoDB</span></li>
+                                        </ul>
+                                        <a href="http://www.google.com" target="_blank" class="modal-url btn btn-primary mb-4 mb-md-0">Live Demo</a>
+                                    </div>
+                                    <div class="col-md-7 text-center">
+                                        <div class="modal-pictures">
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- ============ END PORTFOLIO MODAL ================= -->
+        </section>
+        <!-- =================== END PORTFOLIO SECTION ================= -->
+        <!-- =============== INTERESTED SECTION =============== -->
+        <section id="section_interested">
+            <div class="img-overlay">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-md-6">
+                            <h2 class="font-weight-bold wow fadeInUp" data-wow-duration="0.8s" data-wow-delay="0.2s">Want to <span class="secondary-color-dark">Work</span> with Me?</h2>
+                            <!-- TODO: fix wording -->
+                            <p class="my-4 wow fadeInUp" data-wow-duration="0.8s" data-wow-delay="0.4s">I am passionate about software and am always excited about new projects and to challenge myself with new technologies and frameworks!</p>
+                            <a href="#section_contact" class="btn btn-primary wow fadeInUp" data-wow-duration="0.8s" data-wow-delay="0.5s">Contact</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- =============== END INTERESTED SECTION =============== -->
+        <!-- =================== SERVICE SECTION ================= 
+        TODO: write text.
+        -->
+        <section id="section_service" class="py-md-5 py-3">
+            <div class="container py-5">
+                <div class="row justify-content-center wow fadeInUp" data-wow-duration="0.8s" data-wow-delay="0.2s">
+                    <h2 class="font-weight-bold pb-5">What <span class="secondary-color-dark">I Do</span></h2>
+                </div>
+                <div class="row">
+                    <div class="col-sm-6 col-md-4">
+                        <div class="custom-card wow fadeInUp" data-wow-duration="0.8s" data-wow-delay="0.3s">
+                            <i class="fas fa-file-code fa-2x orange-color"></i>
+                            <h4 class="font-weight-bold py-3">Software Development</h4>
+                            <p>I am a full stack developer, always trying to keep up with the latest trends in technology. My Development skills also include 2D game development.</p>
+                        </div>
+                    </div>
+                    <div class="col-sm-6 col-md-4">
+                        <div class="custom-card wow fadeInUp" data-wow-duration="0.8s" data-wow-delay="0.5s">
+                            <i class="fas fa-tasks fa-2x turquoise-color"></i>
+                            <h4 class="font-weight-bold py-3">Project Management</h4>
+                            <p>I have experience managing agile teams, delivering quality products that fulfill client's standards. Agile methodologies such as Scrum allow to keep the focus on what gives value to the users.</p>
+                        </div>
+                    </div>
+                    <div class="offset-sm-3 col-sm-6 offset-md-0 col-md-4">
+                        <div class="custom-card wow fadeInUp" data-wow-duration="0.8s" data-wow-delay="0.7s">
+                            <i class="fas fa-lightbulb fa-2x purple-color"></i>
+                            <h4 class="font-weight-bold py-3">Scrum Product Owner</h4>
+                            <p>I excel at communicating with customers and clients, filling the gap between business people and IT teams by leading brainstorming sessions and translating business requirements into technical specifications.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- =================== END SERVICE SECTION ================= -->
+        <!-- =================== RESUME SECTION ================= -->
+        <section id="section_resume">
+            <div class="img-overlay">
+                <div class="container">
+                    <div class="row justify-content-center wow fadeInUp" data-wow-duration="0.8s" data-wow-delay="0.2s">
+                        <h2 class="font-weight-bold pb-5">My <span class="secondary-color-dark">Resume</span></h2>
+                    </div>
+                    <div class="row">
+                        <div class="col-md-6">
+                            <h3 class="pb-4 text-center text-md-left wow fadeInUp" data-wow-duration="0.8s" data-wow-delay="0.3s">Experience</h3>
+                            <div class="custom-card wow fadeInUp" data-wow-duration="0.8s" data-wow-delay="0.3s">
+                                <h6><i class="far fa-calendar-alt"></i>Jan/2017 - May/2019 (2.5 years)</h6>
+                                <h3>Software Developer / Product Owner</h3>
+                                <h5 class="business">G&amp;S Gestión y Sistemas S.A.C.</h5>
+                                <div><img class="rounded" src="./img/icons/flag-peru.png" alt="Peru">Peru</div>
+                            </div>
+                            <div class="custom-card wow fadeInUp" data-wow-duration="0.8s" data-wow-delay="0.5s">
+                                <h6><i class="far fa-calendar-alt"></i>Jan/2016 - May/2016 (5 months)</h6>
+                                <h3>Computer Science Tutor</h3>
+                                <h5 class="business">Tompkins Cortland Community College</h5>
+                                <div><img class="rounded" src="./img/icons/flag-usa.png" alt="USA">USA</div>
+                            </div>
+                            <div class="custom-card wow fadeInUp" data-wow-duration="0.8s" data-wow-delay="0.6s">
+                                <h6><i class="far fa-calendar-alt"></i>2013 - 2014 (1 year)</h6>
+                                <h3>Head of Software Development</h3>
+                                <h5 class="business">Efact S.A.C.</h5>
+                                <div><img class="rounded" src="./img/icons/flag-peru.png" alt="Peru">Peru</div>
+                            </div>
+                            <div class="custom-card wow fadeInUp" data-wow-duration="0.8s" data-wow-delay="0.6s">
+                                <h6><i class="far fa-calendar-alt"></i>2008 - 2013 (5 years)</h6>
+                                <h3>Software Developer / Team Leader</h3>
+                                <h5 class="business">Alfa1lab Latin America S.A.C.</h5>
+                                <div><img class="rounded" src="./img/icons/flag-peru.png" alt="Peru">Peru</div>
+                                <div><img class="rounded" src="./img/icons/flag-denmark.png" alt="Denmark">Denmark</div>
+                            </div>
+                            <div class="custom-card wow fadeInUp" data-wow-duration="0.8s" data-wow-delay="0.6s">
+                                <h6><i class="far fa-calendar-alt"></i>2007 - 2008 (1 year)</h6>
+                                <h3>Software Developer (Jr.)</h3>
+                                <h5 class="business">Enjoy Peru S.A.C.</h5>
+                                <div><img class="rounded" src="./img/icons/flag-peru.png" alt="Peru">Peru</div>
+                            </div>
+                        </div>
+                        <div class="col-md-6">
+                            <h3 class="pt-5 pt-md-0 pb-4 text-center text-md-left wow fadeInUp" data-wow-duration="0.8s" data-wow-delay="0.3s">Education</h3>
+                            <div class="custom-card wow fadeInUp" data-wow-duration="0.8s" data-wow-delay="0.3s">
+                                <h6><i class="far fa-calendar-alt"></i>2014 - 2016</h6>
+                                <h3>A.S. in Computer Science</h3>
+                                <h3>A.A.S. in Computer Information Systems</h3>
+                                <h5 class="business">Tompkins Cortland Community College</h5>
+                                <div><img class="rounded" src="./img/icons/flag-usa.png" alt="USA">USA</div>
+                            </div>
+                            <div class="custom-card wow fadeInUp" data-wow-duration="0.8s" data-wow-delay="0.5s">
+                                <h6><i class="far fa-calendar-alt"></i>2005 - 2008</h6>
+                                <h3>Degree in Administration of IT Projects</h3>
+                                <h5 class="business">CIBERTEC Technological Institute</h5>
+                                <div><img class="rounded" src="./img/icons/flag-peru.png" alt="Peru">Peru</div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- =================== END RESUME SECTION ================= -->
+        <!-- =================== CONTACT SECTION ================= -->
+        <section id="section_contact" class="py-md-5 py-3">
+            <div class="container py-5">
+                <div class="row justify-content-center wow fadeInUp" data-wow-duration="0.8s" data-wow-delay="0.2s">
+                    <h2 class="font-weight-bold pb-5">Contact <span class="secondary-color-dark">Me</span></h2>
+                </div>
+                <div class="row justify-content-center">
+                    <div class="col-md-8 col-lg-6 col-xl-5">
+                        <div class="d-flex flex-wrap align-items-center custom-card wow fadeInUp" data-wow-duration="0.8s" data-wow-delay="0.2s">
+                            <i class="fas fa-phone"></i>
+                            <div class="pl-5 py-3">
+                                <h4 class="font-weight-bold">Phone</h4>
+                                <span>+1 (607) 237 9254</span>
+                            </div>
+                        </div>
+                        <div class="d-flex flex-wrap align-items-center custom-card wow fadeInUp" data-wow-duration="0.8s" data-wow-delay="0.4s">
+                            <i class="fas fa-envelope"></i>
+                            <div class="pl-5 py-3">
+                                <h4 class="font-weight-bold">Email</h4>
+                                <span>zurobackster@gmail.com</span>
+                            </div>
+                        </div>
+                        <div class="d-flex flex-wrap custom-card align-items-center wow fadeInUp" data-wow-duration="0.8s" data-wow-delay="0.6s">
+                            <i class="fas fa-map-marker-alt"></i>
+                            <div class="pl-5 py-3">
+                                <h4 class="font-weight-bold">Location</h4>
+                                <span>Vestal, New York</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- =================== END CONTACT SECTION ================= -->
+    </main>
+    <!-- =================== END MAIN SECTION ================= -->
+    <!-- ================== FOOTER SECTION ================ -->
+    <footer>
         <div class="container">
-          <div class="row slider-text align-items-center justify-content-center">
-            <div class="col-md-8 text-center col-sm-12 element-animate">
-              <h1>MODELOS ELEGANTES Y EXCLUSIVOS</h1>
-              <p class="mb-5">Nos esforzamos en brindarte lo mejor con arreglos y flores para toda ocasión.</p>
-              <p><a href="#will" class="btn btn-white btn-outline-white">Ver Catálogo</a></p>
+            <!-- Copyright -->
+            <div class="text-center py-3">&copy; <script>
+                    document.write(new Date().getFullYear());
+                </script> Copyright All rights reserved | <a href="https://www.jlreategui.com/" target="_blank"> Re&aacute;tegui Industries</a>
             </div>
-          </div>
+            <!-- End Copyright -->
         </div>
-      </div>
-
-      <div class="slider-item" style="background-image: url('img/hero_1.jpg');">
-        <div class="container">
-          <div class="row slider-text align-items-center justify-content-center">
-            <div class="col-md-8 text-center col-sm-12 element-animate">
-              <h1>DISEÑADORES EXPERTOS</h1>
-              <p class="mb-5">Ponemos nuestra experiencia y dedicación a tu servicio con rapidez y confiabilidad.</p>
-              <p><a href="#will" class="btn btn-white btn-outline-white">Ver Catálogo</a></p>
-            </div>
-          </div>
-        </div>
-        
-      </div>
-
-    </section>
-    <!-- END slider -->
-    
-
-    <section id="will" class="section bg-light element-animate">
-      <div class="container">
-        <div class="row">
-          <div class="col-md-6 mb-4 mb-lg-0 col-lg-3 text-center">
-            <span class="ion-bag display-4 text-black d-block mb-4"></span>
-            <h4 class="mb-4 text-primary">Tú eliges</h4>
-            <p>Todos nuestros arreglos pueden contener flores artificiales o naturales. Con bases de canastas de mimbre o vidrio</p>
-          </div>
-          <div class="col-md-6 mb-4 mb-lg-0 col-lg-3 text-center">
-            <span class="ion-android-calendar display-4 text-black d-block mb-4"></span>
-            <h4 class="mb-4 text-primary">Para toda ocasión</h4>
-            <p>Vive cada momento con elegancia y frescura. Tenemos arreglos para toda ocasión. San Valentín, Aniversarios, Día de la madre y más!.</p>
-          </div>
-          <div class="col-md-6 mb-4 mb-lg-0 col-lg-3 text-center">
-            <span class="ion-android-favorite-outline display-4 text-black d-block mb-4"></span>
-            <h4 class="mb-4 text-primary">Regala amor, regala una flor</h4>
-            <p>Sorprende a tus seres queridos con flores personalizadas y mucho estilo.</p>
-          </div>
-          <div class="col-md-6 mb-4 mb-lg-0 col-lg-3 text-center">
-            <span class="ion-android-color-palette display-4 text-black d-block mb-4"></span>
-            <h4 class="mb-4 text-primary">En la variedad está el gusto</h4>
-            <p>Cartuchos, Gladiolos, Claveles, Ramos de flores primaverales, centros de mesa y y más!.</p>
-          </div>
-        </div>
-      </div>
-    </section>
-    
-    <section class="section element-animate">
-
-      <div class="clearfix mb-5 pb-5">
-        <div class="container-fluid">
-          <div class="row">
-            <div class="col-md-12 text-center heading-wrap">
-              <h2>Arreglos Especiales</h2>
-              <span class="back-text">Flores</span>
-            </div>
-          </div>
-        </div>
-      </div>
-
-      <div class="owl-carousel centernonloop">
-        <a href="recipes.html" class="item-dishes">
-          <div class="text">
-            <p class="dishes-price">S/29.00</p>
-            <h2 class="dishes-heading">Centros de Mesa</h2>
-          </div>
-          <img src="img/dishes_1.jpg" alt="" class="img-fluid">
-        </a>
-        <a href="recipes.html" class="item-dishes">
-          <div class="text">
-            <p class="dishes-price">S/49.00</p>
-            <h2 class="dishes-heading">Arreglos Florales</h2>
-          </div>
-          <img src="img/dishes_2.jpg" alt="" class="img-fluid">
-        </a>
-        <a href="recipes.html" class="item-dishes">
-          <div class="text">
-            <p class="dishes-price">S/59.00</p>
-            <h2 class="dishes-heading">Arreglos para comedor</h2>
-          </div>
-          <img src="img/dishes_3.jpg" alt="" class="img-fluid">
-        </a>
-        <a href="recipes.html" class="item-dishes">
-          <div class="text">
-            <p class="dishes-price">S/39.00</p>
-            <h2 class="dishes-heading">Adornos para Sala</h2>
-          </div>
-          <img src="img/dishes_4.jpg" alt="" class="img-fluid">
-        </a>
-      </div>
-    </section> <!-- .section -->
-
-    <section class="section bg-light element-animate">
-
-      <div class="clearfix mb-5 pb-5">
-        <div class="container-fluid">
-          <div class="row">
-            <div class="col-md-12 text-center heading-wrap">
-              <h2>Nuestro Catálogo</h2>
-              <span class="back-text-dark">Catálogo</span>
-            </div>
-          </div>
-        </div>
-      </div>
-
-      <div class="container">
-        
-        <div class="row no-gutters">
-          <div class="col-md-6">
-            <div class="sched d-block d-lg-flex">
-              <div class="bg-image order-2" style="background-image: url('img/dishes_4.jpg');"></div>
-              <div class="text order-1">
-                <h3>Adornos para Sala</h3>
-                <p>Decora tu sala y adorna la visita de amigos y familiares!</p>
-                <p class="text-primary h3">S/39.00</p>
-              </div>
-              
-            </div>
-
-            <div class="sched d-block d-lg-flex">
-              <div class="bg-image" style="background-image: url('img/dishes_1.jpg');"></div>
-              <div class="text">
-                <h3>Centros de Mesa</h3>
-                <p>Celebra tus comidas con arreglos especiales para comedor.</p>
-                <p class="text-primary h3">S/29.00</p>
-                
-              </div>
-              
-            </div>
-
-          </div>
-
-          <div class="col-md-6">
-            <div class="sched d-block d-lg-flex">
-              <div class="bg-image order-2" style="background-image: url('img/dishes_2.jpg');"></div>
-              <div class="text order-1">
-                <h3>Arreglos Florales</h3>
-                <p>Comparte arreglos florales con tus familiares y llénalos de elegancia.</p>
-                <p class="text-primary h3">S/49.00</p>
-                
-              </div>
-              
-            </div>
-
-            <div class="sched d-block d-lg-flex">
-              <div class="bg-image" style="background-image: url('img/dishes_3.jpg');"></div>
-              <div class="text">
-                <h3>Arreglos para comedor</h3>
-                <p>Celebra tus comidas con arreglos especiales para comedor.</p>
-                <p class="text-primary h3">S/59.00</p>
-                
-              </div>
-              
-            </div>
-
-          </div>
-        </div>
-        
-
-      </div>
-    </section> <!-- .section -->
-
-   
-
-    <section class="section element-animate">
-
-      <div class="clearfix mb-5 pb-5">
-        <div class="container-fluid">
-          <div class="row">
-            <div class="col-md-12 text-center heading-wrap">
-              <h2>Testimonios</h2>
-              <span class="back-text">Mensaje de nuestros sócios</span>
-            </div>
-          </div>
-        </div>
-      </div>
-
-      <div class="container">
-        <div class="row">
-          <div class="col-md-4">
-            <blockquote class="testimonial">
-              <p>&ldquo; Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolor, obcaecati? Quis eum minus, sequi atque quisquam ducimus aliquam veritatis nobis cum iusto neque enim explicabo maxime natus doloribus, fuga sunt. &rdquo;</p>
-              <div class="d-flex author">
-                <img src="img/about/gabriel.jpg" alt="" class="mr-4">
-                <div class="author-info">
-                  <h4>Arq. Gabriel Ravina Cano</h4>
-                  <p>CEO, Fundador</p>
-                </div>
-              </div>  
-            </blockquote>
-          </div>
-          <div class="col-md-4">
-            <blockquote class="testimonial">
-              <p>&ldquo; Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolor, obcaecati? Quis eum minus, sequi atque quisquam ducimus aliquam veritatis nobis cum iusto neque enim explicabo maxime natus doloribus, fuga sunt. &rdquo;</p>
-              <div class="d-flex author">
-                <img src="img/about/cynthia.jpg" alt="" class="mr-4">
-                <div class="author-info">
-                  <h4>Prof. Cynthia Ravina Cano</h4>
-                  <p>Gerenta General, Co-Fundadora</p>
-                </div>
-              </div>  
-            </blockquote>
-          </div>
-          <div class="col-md-4">
-            <blockquote class="testimonial">
-              <p>&ldquo; Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolor, obcaecati? Quis eum minus, sequi atque quisquam ducimus aliquam veritatis nobis cum iusto neque enim explicabo maxime natus doloribus, fuga sunt. &rdquo;</p>
-              <div class="d-flex author">
-                <img src="img/about/liliam.jpg" alt="" class="mr-4">
-                <div class="author-info">
-                  <h4>Lic. Liliam Ravina Cano</h4>
-                  <p>Directorio, Co-Fundadora</p>
-                </div>
-              </div>  
-            </blockquote>
-          </div>
-        </div>
-      </div>
-    </section> <!-- .section -->
-
-    
-    <footer class="site-footer" role="contentinfo">
-      <div class="container">
-        <div class="row mb-5">
-          <div class="col-md-4 mb-5">
-            <h3>¿Quienes Somos?</h3>
-            <p class="mb-5"><strong>Ravinarreglos y Regalos</strong> es el primer negocio virtual de venta de arreglos florales y adornos. Nuestro centro de operaciones está situado en Lima, Perú, y nuestras actividades están enfocadas a brindar servicios y productos florales.</p>
-            <ul class="list-unstyled footer-link d-flex footer-social">
-              <li><a href="#" class="p-2"><span class="fa fa-twitter"></span></a></li>
-              <li><a href="#" class="p-2"><span class="fa fa-facebook"></span></a></li>
-              <li><a href="#" class="p-2"><span class="fa fa-linkedin"></span></a></li>
-              <li><a href="#" class="p-2"><span class="fa fa-instagram"></span></a></li>
-            </ul>
-
-          </div>
-          <div class="col-md-5 mb-5">
-            <div class="mb-5">
-              <h3>Horarios</h3>
-              <p><strong class="d-block">Lunes a Viernes</strong> 9AM - 6PM</p>
-            </div>
-            <div>
-              <h3>Información de Contacto</h3>
-              <ul class="list-unstyled footer-link">
-                <li class="d-block">
-                  <span class="d-block">Dirección:</span>
-                  <span class="text-white">Los Tacones 2276 Urb. San Eugenio Lince</span></li>
-                <li class="d-block"><span class="d-block">Teléfono:</span><span class="text-white">+51 935.681.869</span></li>
-                <li class="d-block"><span class="d-block">Correo Electrónico:</span><span class="text-white">ravica1953@hotmail.com</span></li>
-              </ul>
-            </div>
-          </div>
-		  <!-- loader 
-          <div class="col-md-3 mb-5">
-            <h3>Quick Links</h3>
-            <ul class="list-unstyled footer-link">
-              <li><a href="#">About</a></li>
-              <li><a href="#">Terms of Use</a></li>
-              <li><a href="#">Disclaimers</a></li>
-              <li><a href="#">Contact</a></li>
-            </ul>
-          </div>-->
-          <div class="col-md-3">
-          
-          </div>
-        </div>
-        <div class="row">
-          <div class="col-12 text-md-center text-left">
-            <p><!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. -->
-        Copyright &copy;<script>document.write(new Date().getFullYear());</script> All rights reserved | This template is made with <i class="fa fa-heart" aria-hidden="true"></i> by <a href="https://colorlib.com" target="_blank" >Colorlib</a>
-        <!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. --></p>
-          </div>
-        </div>
-      </div>
     </footer>
-    <!-- END footer -->
+    <!-- ================== FOOTER SECTION ================ -->
+    <!-- Lazysizes: self-initializing lazyloader for images. -->
+    <script src="./js/lazysizes.min.js" async=""></script>
+    <!-- JQuery -->
+    <script src="./js/jquery-3.4.1.min.js"></script>
 
-    <!-- loader -->
-    <div id="loader" class="show fullscreen"><svg class="circular" width="48px" height="48px"><circle class="path-bg" cx="24" cy="24" r="22" fill="none" stroke-width="4" stroke="#eeeeee"/><circle class="path" cx="24" cy="24" r="22" fill="none" stroke-width="4" stroke-miterlimit="10" stroke="#cf1d16"/></svg></div>
+    <!-- Bootstrap JavaScript file -->
+    <script src="./js/bootstrap.min.js"></script>
 
-    <script src="js/jquery-3.2.1.min.js"></script>
-    <script src="js/popper.min.js"></script>
-    <script src="js/bootstrap.min.js"></script>
-    <script src="js/owl.carousel.min.js"></script>
-    <script src="js/jquery.waypoints.min.js"></script>
+    <!-- Isotop: Filter & sort js library -->
+    <script src="./vendor/isotope/isotope.pkgd.min.js"></script>
 
-    <script src="js/jquery.magnific-popup.min.js"></script>
-    <script src="js/magnific-popup-options.js"></script>
-    
+    <!-- WOW JS: Complement for Animate.css, Reveal Animations When You Scroll -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/wow/1.1.2/wow.min.js"></script>
 
-    <script src="js/main.js"></script>
-  </body>
-</html>
+    <!-- Custom Script and Logic -->
+    <script src="./js/custom-script.js"></script>
+</body></html>
