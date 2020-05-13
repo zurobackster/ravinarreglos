@@ -1,0 +1,303 @@
+/* import CSS variables */
+@import url("./partials/variables.css");
+
+/* import CSS global */
+@import url("./partials/global.css");
+
+
+/* ============== HEADER SECTION ============= */
+/* This class is added/removed when scrolling in the navbar. */
+.navbar_fixed {
+    background-color: white;
+    box-shadow: 0px 3px 10px 4px #00000021;
+    transition: background .7s ease;
+}
+
+.navbar {
+    padding: 1.2rem 3rem;
+    font-size: 1.1rem;
+    font-weight: bold;
+}
+
+#section_header .navbar li {
+    margin: 0 15px;
+}
+
+#section_header .navbar li a:hover {
+    color: var(--primary-color-dark);
+}
+
+#section_header .navbar li a {
+    padding: 0 0;
+}
+
+#section_header .navbar li .active {
+    border-bottom: .1rem solid var(--black-custom);
+}
+
+/* ============== END HEADER SECTION ============= */
+
+
+/* ============== HOME SECTION ============= */
+#section_home,
+#section_resume {
+    background: url("../img/backgrounds/bg-home.webp") no-repeat center center;
+    background-size: cover;
+}
+
+#section_home .container .speech-bubble {
+    background-color: var(--primary-color);
+    color: white;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+    border-bottom-right-radius: 20px;
+    padding: 10px 30px;
+    font-weight: bold;
+}
+
+#section_home .container .row ul.contact-info li {
+    margin: .5rem 0;
+}
+
+#section_home .container .row ul.contact-info a:hover .fas {
+    color: var(--primary-color);
+}
+
+#section_home .container .row ul.social-info li {
+    margin: .5rem .5rem;
+    padding: 0 .5rem;
+    color: var(--secondary-color);
+    border: .1rem solid var(--secondary-color);
+    border-radius: .4rem;
+}
+
+#section_home .container .row ul.social-info li:hover {
+    color: white;
+    border-color: var(--secondary-color-dark);
+    background-color: var(--secondary-color-dark);
+}
+
+#section_home .container img {
+    border: 20px solid rgba(0, 0, 0, .1);
+}
+
+/* ============== END HOME SECTION ============= */
+
+
+/* ============== ABOUT SECTION ============= */
+#section_about ul li,
+#section_portfolio ul li {
+    margin-bottom: 20px;
+}
+
+
+#section_about ul li span,
+#section_portfolio ul li span {
+    border: 1.2px solid var(--primary-color);
+    padding: 4px 10px;
+    margin: 0 5px;
+}
+
+/* ============== END ABOUT SECTION ============= */
+
+
+/* ============== SKILLS SECTION ============= */
+#section_skills {
+    background-color: var(--white-custom);
+}
+
+#section_skills .progress {
+    overflow: visible;
+    margin-bottom: 26px;
+    height: 5px;
+    background-color: lightgray;
+}
+
+#section_skills .progress .progress-bar {
+    background-color: var(--primary-color);
+    position: relative;
+    border-radius: 4px;
+
+}
+
+#section_skills .progress .progress-bar span {
+    background-color: var(--primary-color);
+    position: absolute;
+    bottom: -20px;
+    font-size: 10px;
+    line-height: 10px;
+    padding: 2px 3px 2px 4px;
+    right: -1.4em;
+    border-radius: 2px;
+}
+
+#section_skills .progress .progress-bar span:after {
+    bottom: 100%;
+    left: 50%;
+    border: solid transparent;
+    content: " ";
+    height: 0;
+    width: 0;
+    position: absolute;
+    pointer-events: none;
+    border-color: rgba(255, 255, 255, 0);
+    border-bottom-color: var(--primary-color);
+    border-width: 5px;
+    margin-left: -5px;
+}
+
+/* ============== END SKILLS SECTION ============= */
+
+
+/* ============== PORTFOLIO SECTION ============= */
+#section_portfolio .portfolio-nav .active {
+    border-bottom: 2.5px solid var(--primary-color-dark);
+}
+
+#section_portfolio .portfolio-nav ul li {
+    margin: 0 15px;
+    margin-bottom: 30px;
+    padding-bottom: 5px;
+    cursor: pointer;
+}
+
+#section_portfolio figure {
+    position: relative;
+    overflow: hidden;
+    border-radius: 20px;
+}
+
+#section_portfolio figcaption {
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    top: 0;
+    left: 0;
+    color: whitesmoke;
+    z-index: 10;
+    transition: background .5s ease;
+    cursor: pointer;
+}
+
+#section_portfolio figure img {
+    width: 100%;
+}
+
+#section_portfolio figcaption .title {
+    position: absolute;
+    width: 100%;
+    top: 52%;
+    left: 0;
+    text-align: center;
+    font-weight: bold;
+    opacity: 0;
+    transition: all .5s ease;
+    transform: translateX(80px);
+}
+
+#section_portfolio figcaption .sub-title {
+    position: absolute;
+    width: 100%;
+    top: 62%;
+    left: 0;
+    text-align: center;
+    opacity: 0;
+    transition: all .5s ease;
+    transform: translateX(-70px);
+}
+
+#section_portfolio figcaption i {
+    position: absolute;
+    width: 100%;
+    top: 36%;
+    left: 0;
+    text-align: center;
+    opacity: 0;
+    transition: opacity .5s ease;
+}
+
+#section_portfolio figure:hover figcaption {
+    background-color: rgba(115, 122, 222, .8);
+}
+
+#section_portfolio figure:hover i {
+    opacity: 1;
+}
+
+#section_portfolio figure:hover .title,
+#section_portfolio figure:hover .sub-title {
+    opacity: 1;
+    transform: translateX(0px);
+}
+
+/* *********** END MODAL *************** */
+#section_portfolio #portfolio_modal .modal-dialog {
+    margin: 0 auto;
+}
+
+#section_portfolio #portfolio_modal .modal-dialog .modal-body .container {
+    overflow-y: scroll;
+    max-height: 500px;
+}
+
+/* *********** END MODAL *************** */
+
+/* ============== END PORTFOLIO SECTION ============= */
+
+/* ============== INTERESTED SECTION ============= */
+#section_interested {
+    background: url("../img/backgrounds/bg-interested.webp") no-repeat center center;
+    background-size: cover;
+}
+
+/* ============== END INTERESTED SECTION ============= */
+
+
+/* ============== RESUME SECTION ============= */
+#section_resume .business {
+    color: var(--primary-color-dark);
+}
+
+#section_resume .container .row .far {
+    padding-right: 10px;
+}
+
+/* Padding for all elements in experience and education custom card. */
+#section_resume .custom-card h6,
+#section_resume .custom-card h5 {
+    padding-bottom: 10px;
+}
+
+#section_resume .container .custom-card img {
+    width: 24px;
+    margin-right: 5px;
+}
+
+/* ============== END RESUME SECTION ============= */
+
+
+/* ============== CONTACT SECTION ============= */
+#section_contact .custom-card {
+    padding: 15px 20px;
+}
+
+/* ============= END CONTACT SECTION ============= */
+
+
+/* ============= FOOTER SECTION ============= */
+footer {
+    background-color: whitesmoke;
+    color: var(--black-custom);
+}
+
+footer a,
+footer a:visited {
+    color: var(--primary-color-dark);
+}
+
+footer a:hover {
+    color: var(--primary-color);
+    text-decoration: underline;
+}
+
+/* ============= END FOOTER SECTION ============= */

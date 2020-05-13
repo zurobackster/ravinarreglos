@@ -1,0 +1,18 @@
+/*This file was originally named: _variables.css, changed because of github publish. */
+/* CSS variables must begin with -- */
+:root {
+    
+    /* colors */
+    --primary-color: #858dff;
+    --primary-color-dark: #737ade;
+    --secondary-color: #ff858d;
+    --secondary-color-dark: #e3767d;
+    --black-custom: #515151;
+    --white-custom: #f5f5f5;
+    --orange-custom: #e38e76;
+    --turquoise-custom: #73ded7;
+    --purple-custom: #be85ff;
+    
+    /* font family variables. */
+    --roboto: 'Roboto', sans-serif;
+}
